@@ -38,10 +38,8 @@ public abstract class GenericDAO<T> extends SQLiteOpenHelper {
 
     }
 
-
-
     public GenericDAO(Context context){
-        super(context, ProjetoAcoes,null, Projeto1 );
+        super(context,ProjetoAcoes,null,Projeto1);
     }
 
 
