@@ -1,37 +1,27 @@
 package com.example.lab1.acoesdiarias;
 
+import android.content.Context;
+
 import java.util.List;
 
 
-public class UsuarioDAO extends GenericDAO{
+public class UsuarioDAO<Usuario> extends GenericDAO<Usuario>{
 
-    @Override
-    public boolean salvar(T t) {
-        return false;
+    public UsuarioDAO(Context context) {
+        super(context);
     }
-
     @Override
-    public boolean salvar(Object o) {
-        return false;
-    }
-
+    public boolean salvar(Usuario usuario) {return false;}
     @Override
-    public List<T> listar() {
+    public List<Usuario> listar() {
         return null;
     }
-
     @Override
     public boolean excluir(int id) {
         return false;
     }
-
     @Override
-    public boolean atualizar(Object o) {
-        return false;
-    }
-
-    @Override
-    public boolean atualizar(T t) {
+    public boolean atualizar(Usuario usuario) {
         return false;
     }
 }
