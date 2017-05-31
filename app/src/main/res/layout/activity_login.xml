@@ -5,7 +5,7 @@
 
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/TxtUsuarioTelaLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Usuario"
@@ -18,7 +18,7 @@
         android:ems="10"
         android:inputType="textPersonName"/>
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/TxtSenhaTelaLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Senha"
